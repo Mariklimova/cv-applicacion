@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+body {
+    background: #F3F3F3;
+    width: 1200px;
+    margin: auto;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: var(--main-black, #181717);
+    font: 500 50px DM Sans;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav p {
+    color: var(--main-black, #181717);
+    font: 500 22px DM Sans;
+
+}
+
+header nav p:hover {
+    text-decoration: underline;
+}
+
+header nav p:not(:last-child) {
+    margin-right: 30px;
+}
+
+.about {
+    margin-top: 147px;
+}
+
+.about .info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .info .left {
+    width: 575px;
+}
+
+.about .info .right {
+    width: 457px;
+    height: 405px;
+    background: var(--main-gray, #606060);
+}
+
+.about .info .left h1 {
+    color: var(--main-black, #181717);
+    font: 500 60px DM Sans;
+}
+
+.about .info .left p {
+    color: var(--main-gray, #606060);
+    font: 400 24px DM Sans;
+    margin-top: 47px;
+
+}
+
+.about .skills div {
+    display: flex;
+    margin-top: 168px;
+    margin-bottom: 110px;
+}
+
+.about .skills div h2 {
+    color: var(--main-black, #181717);
+    font: 500 22px DM Sans;
+    text-decoration-line: underline;
+    margin-right: 60px;
+}
+
+.about .skills div p {
+    color: var(--main-black, #181717);
+    font: 400 20px DM Sans;
+    width: 440px;
+}
+
+.about .line {
+    height: 1px;
+    background-color: #181717;
+}
+
+.vector {
+    background-image: url(./vector.png);
+    width: 21px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-right: 392px;
+}
+
+.contact .email {
+    display: flex;
+    margin-top: 71px;
+}
+
+.contact .email p {
+    color: var(--main-black, #181717);
+    font: 400 32px DM Sans;
+    width: 347px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 135px;
+    width: 1020px;
+}
+
+footer h2 {
+    color: #2429AF;
+    font: 500 22px DM Sans;
+    padding-right: 650px;
+}
+
+footer p {
+    color: var(--main-black, #181717);
+    font: 500 22px DM Sans;
+}
