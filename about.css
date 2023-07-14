@@ -116,11 +116,15 @@ header nav p:not(:last-child) {
     width: 347px;
 }
 
-footer div {
+.contact .email p:hover {
+    text-decoration: underline;
+}
+
+footer {
     display: flex;
     justify-content: space-between;
     margin-top: 135px;
-    width: 1020px;
+    width: 1120px;
 }
 
 footer h2 {
@@ -129,7 +133,16 @@ footer h2 {
     padding-right: 650px;
 }
 
-footer p {
+footer nav {
+    display: flex;
+    align-items: center;
+}
+
+footer nav p {
     color: var(--main-black, #181717);
     font: 500 22px DM Sans;
+}
+
+footer nav p:not(:last-child) {
+    margin-right: 30px;
 }
