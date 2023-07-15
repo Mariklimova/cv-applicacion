@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+body {
+    background: #F3F3F3;
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: #181717;
+    font: 500 50px DM Sans;
+}
+
+header nav p {
+    color: #181717;
+    font: 500 22px DM Sans;
+}
+
+header nav p:not(:last-child) {
+    margin-right: 32px;
+}
+
+header nav p:hover {
+    text-decoration: underline;
+}
+
+.contact h1 {
+    color: #181717;
+    font: 500 60px DM Sans;
+    margin-top: 109px;
+}
+
+.contact p {
+    color: #606060;
+    font: 400 22px DM Sans;
+    margin-top: 32px;
+    margin-bottom: 52px;
+}
+
+.contact .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact .form .inputs input {
+    width: 678px;
+    height: 50px;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.contact .form .text {
+    width: 395px;
+}
+
+.contact .btn {
+    width: 180px;
+    border-radius: 5px;
+    background: #000;
+    text-align: center;
+    padding: 10px 0;
+    color: #FFF;
+    font: 700 18px DM Sans;
+}
+
+.contact .btn:active {
+    background: #12daf5
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 102px;
+}
+
+footer h2 {
+    color: #2429AF;
+    font: 500 22px DM Sans;
+}
+
+footer nav {
+    display: flex;
+
+}
+
+footer nav p {
+    color: #181717;
+    font: 500 22px DM Sans;
+}
+
+footer nav p:not(:last-child) {
+    margin-right: 30px;
+}
+
+footer nav p:hover {
+    text-decoration: underline;
+}

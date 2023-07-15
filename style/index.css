@@ -58,7 +58,7 @@ header nav p {
 }
 
 .img-arrow {
-    background-image: url(./↓.png);
+    background-image: url(../assets/↓.png);
     width: 34px;
     height: 40px;
     background-size: contain;
@@ -124,7 +124,7 @@ header nav p {
 
 
 .img-rectangle {
-    background-image: url(./Thumbnail.png);
+    background-image: url(../assets/Thumbnail.png);
     width: 640px;
     height: 365px;
     background-size: contain;

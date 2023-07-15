@@ -96,7 +96,7 @@ header nav p:not(:last-child) {
 }
 
 .vector {
-    background-image: url(./vector.png);
+    background-image: url(../assets/vector.png);
     width: 21px;
     height: 24px;
     background-size: contain;
@@ -139,7 +139,7 @@ footer nav {
 }
 
 footer nav p {
-    color: var(--main-black, #181717);
+    color: #181717;
     font: 500 22px DM Sans;
 }
 
