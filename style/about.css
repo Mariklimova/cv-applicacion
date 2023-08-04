@@ -120,6 +120,7 @@ header nav p:not(:last-child) {
 
 .contact .email p:last-child:hover {
     text-decoration: underline;
+    color: #2429AF;
 }
 
 footer {
